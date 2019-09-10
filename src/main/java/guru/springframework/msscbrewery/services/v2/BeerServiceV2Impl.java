@@ -8,7 +8,7 @@ import java.util.UUID;
 @Service
 public class BeerServiceV2Impl implements BeerServiceV2 {
     @Override
-    public Object getBeerById(UUID beerId) {
+    public BeerDtoV2 getBeerById(UUID beerId) {
         return null;
     }
 
